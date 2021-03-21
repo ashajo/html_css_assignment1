@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    max-width: 1024px;
+    margin: auto;
+}
+.header{
+    background-color: #abd5e3;
+    height: 46px;
+}
+.header nav li, .header>div {
+    list-style-type: none;
+    color: #e0dede;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+}
+.header li a,.header>div{
+    display: inline-flex;
+    color: #f8f6f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: solid rgb(204, 123, 204);
+}
+#right{
+    float: right;
+    color: #ef3f3f;
+}
+.header a:link{
+    text-decoration: none;
+}
+.header a:visited {
+    text-decoration: none;
+}
+.header a:hover {
+    background-color: #ff7f50;
+}
+.column{
+    display: table;
+}
+.column{
+    display: table-cell;
+    float: left;
+}
+.column.middle{
+    background-color: #ff7f50;
+    width: 70%;
+}
+.headline{
+    font-size: 40px;
+}
+#subtext{
+    height: 100px;
+}
+.article{
+    width: 50%;
+    float: left;
+}
+.column.side{
+    background-color: rgb(220, 233, 195);
+    width: 30%;
+}
+#columns:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.login-section{
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #7fffd4;
+    padding: 10px;
+    text-align: center;
+}
